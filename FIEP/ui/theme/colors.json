@@ -1,0 +1,9 @@
+{
+    "background": "#1e1e1e",
+    "panel": "#252525",
+    "accent": "#4ea3ff",
+    "text": "#ffffff",
+    "text_secondary": "#aaaaaa",
+    "message_in": "#2e2e2e",
+    "message_out": "#3a3f47"
+}

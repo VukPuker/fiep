@@ -1,0 +1,177 @@
+/* ------------------------------
+   GLOBAL
+------------------------------ */
+
+QWidget {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background: #1e1e1e;
+    width: 10px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background: #3a3f47;
+    min-height: 20px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #4ea3ff;
+}
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* ------------------------------
+   SIDEBAR (Contacts)
+------------------------------ */
+
+#Sidebar {
+    background-color: #252525;
+    border-right: 1px solid #333333;
+}
+
+QLineEdit#SearchBar {
+    background-color: #2e2e2e;
+    border: 1px solid #3a3f47;
+    border-radius: 6px;
+    padding: 6px;
+    color: #ffffff;
+}
+QLineEdit#SearchBar:focus {
+    border: 1px solid #4ea3ff;
+}
+
+QListWidget#ContactsList {
+    background-color: #252525;
+    border: none;
+}
+QListWidget#ContactsList::item {
+    padding: 10px;
+    border-radius: 6px;
+}
+QListWidget#ContactsList::item:selected {
+    background-color: #3a3f47;
+}
+QListWidget#ContactsList::item:hover {
+    background-color: #2e2e2e;
+}
+
+/* ------------------------------
+   CHAT HEADER
+------------------------------ */
+
+#ChatHeader {
+    background-color: #252525;
+    padding: 12px;
+    font-size: 18px;
+    border-bottom: 1px solid #333333;
+}
+
+/* ------------------------------
+   MESSAGE LIST
+------------------------------ */
+
+QTextEdit#MessageList {
+    background-color: #1e1e1e;
+    border: none;
+    padding: 10px;
+}
+
+/* ------------------------------
+   MESSAGE BUBBLES
+------------------------------ */
+
+.incoming {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin: 4px 0;
+    max-width: 70%;
+}
+
+.outgoing {
+    background-color: #3a3f47;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin: 4px 0;
+    max-width: 70%;
+    margin-left: auto;
+}
+
+/* ------------------------------
+   INPUT AREA
+------------------------------ */
+
+#MessageInput {
+    background-color: #2e2e2e;
+    border: 1px solid #3a3f47;
+    border-radius: 6px;
+    padding: 6px;
+    color: #ffffff;
+}
+#MessageInput:focus {
+    border: 1px solid #4ea3ff;
+}
+
+QPushButton#SendButton {
+    background-color: #4ea3ff;
+    border-radius: 6px;
+    padding: 8px 14px;
+    color: #ffffff;
+}
+QPushButton#SendButton:hover {
+    background-color: #6eb4ff;
+}
+QPushButton#SendButton:pressed {
+    background-color: #3a90e0;
+}
+
+/* ------------------------------
+   ADMIN PANEL
+------------------------------ */
+
+#AdminPanel {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+QTextEdit#AdminStatus {
+    background-color: #252525;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 6px;
+    color: #ffffff;
+}
+
+QLineEdit#AdminLinkInput {
+    background-color: #2e2e2e;
+    border: 1px solid #3a3f47;
+    border-radius: 6px;
+    padding: 6px;
+    color: #ffffff;
+}
+QLineEdit#AdminLinkInput:focus {
+    border: 1px solid #4ea3ff;
+}
+
+QPushButton#AdminAddButton {
+    background-color: #4ea3ff;
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: #ffffff;
+}
+QPushButton#AdminAddButton:hover {
+    background-color: #6eb4ff;
+}
+QPushButton#AdminAddButton:pressed {
+    background-color: #3a90e0;
+}
